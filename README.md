@@ -1,4 +1,3 @@
 # mumble-skin-devpanel
-# About #
-
-[here](http://mumble.sourceforge.net/Skins).
+# Preview #
+![Preview](https://raw.githubusercontent.com/Hughy/mumble-skin-devpanel/master/preview/preview2.jpg)
