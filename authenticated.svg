@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg2816" sodipodi:docname="authenticated.svg" inkscape:version="0.47 r22583" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px"
+	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<defs>
+	
+	
+		<inkscape:perspective  inkscape:persp3d-origin="NaN : NaN : 1" inkscape:vp_z="NaN : NaN : 1" inkscape:vp_y="NaN : NaN : 0" inkscape:vp_x="NaN : NaN : 1" sodipodi:type="inkscape:persp3d" id="perspective2824">
+		</inkscape:perspective>
+	
+		<inkscape:perspective  inkscape:persp3d-origin="0.5 : 0.33333333 : 1" inkscape:vp_z="1 : 0.5 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_x="0 : 0.5 : 1" sodipodi:type="inkscape:persp3d" id="perspective3644">
+		</inkscape:perspective>
+	
+		<inkscape:perspective  inkscape:persp3d-origin="0.5 : 0.33333333 : 1" inkscape:vp_z="1 : 0.5 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_x="0 : 0.5 : 1" sodipodi:type="inkscape:persp3d" id="perspective2844">
+		</inkscape:perspective>
+</defs>
+<sodipodi:namedview  inkscape:window-x="-4" inkscape:window-height="968" inkscape:window-width="1280" inkscape:current-layer="svg2816" inkscape:pageshadow="2" inkscape:pageopacity="0" objecttolerance="10" gridtolerance="10" guidetolerance="10" showgrid="false" inkscape:cy="8" inkscape:cx="-10.101695" inkscape:zoom="14.75" borderopacity="1" bordercolor="#666666" pagecolor="#ffffff" id="namedview2818" inkscape:window-maximized="1" inkscape:window-y="-4">
+	</sodipodi:namedview>
+<g id="layer1" inkscape:label="Calque" inkscape:groupmode="layer">
+</g>
+<radialGradient id="path3099_1_" cx="21.6855" cy="-1066.7793" r="9.688" gradientTransform="matrix(0.9854 0 0 -0.2812 -13.6324 -286.8782)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#000000"/>
+	<stop  offset="1" style="stop-color:#000000;stop-opacity:0"/>
+</radialGradient>
+<path id="path3099" sodipodi:cx="17.3125" sodipodi:cy="25.53125" sodipodi:rx="9.6875" sodipodi:ry="3.40625" sodipodi:type="arc" opacity="0.4091" fill="url(#path3099_1_)" enable-background="new    " d="
+	M17.283,13.051c0,1.504-4.274,2.724-9.546,2.724c-5.272,0-9.546-1.22-9.546-2.724s4.274-2.724,9.546-2.724
+	C13.009,10.327,17.283,11.547,17.283,13.051z"/>
+<text transform="matrix(1.3236 0 0 1 1 12.7715)" font-family="'ArialMT'" font-size="16.3515">A</text>
+<text transform="matrix(1 0 0 1 8.0508 9.0029)" fill="#FF0000" font-family="'ArialMT'" font-size="12.8189">+</text>
+</svg>
