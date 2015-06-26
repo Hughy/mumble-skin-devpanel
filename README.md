@@ -1,7 +1,7 @@
 # mumble-skin-devpanel
 
 # Preview #
-![Preview](https://raw.githubusercontent.com/Hughy/mumble-skin-devpanel/master/preview/preview2.jpg)
+![Preview](https://raw.githubusercontent.com/Hughy/mumble-skin-devpanel/master/preview/preview1.jpg)
 
 # Install #
 * [Download](https://github.com/Hughy/mumble-skin-devpanel/archive/master.zip)
