@@ -212,23 +212,33 @@ QTreeView.UserView::item:hover {
     border-bottom-right-radius: 0px;
     border-top-left-radius: 3px;
     border-top-right-radius: 0px;
-    background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #e7e7e7, stop: 1 transparent);
-    border-right: 0;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #c7e3f0, stop: 1 transparent);
+    border: 0;
 }
 QTreeView.UserView::item:selected {
-    background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #e7e7e7, stop: 1 transparent);
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #acddf4, stop: 1 transparent);
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 0px;
     border-top-left-radius: 3px;
     border-top-right-radius: 0px;
     border-right: 0;
 }
-QTreeView::branch:has-children:!has-siblings:closed,QTreeView::branch:closed:has-children:has-siblings {
-    image: url(skin:fermer.png);
+QTreeView#qtvUsers::branch:has-children:!has-siblings:closed {
+	image: url(skin:branch-closed.png);
 }
-QTreeView::branch:open:has-children:!has-siblings,QTreeView::branch:open:has-children:has-siblings {
-    image: url(skin:ouvert.png);
+
+QTreeView#qtvUsers::branch:closed:has-children:has-siblings {
+	image: url(skin:branch-closed.png);
 }
+
+QTreeView#qtvUsers::branch:open:has-children:!has-siblings{
+	image: url(skin:branch-open.png);
+}
+
+QTreeView#qtvUsers::branch:open:has-children:has-siblings {
+	image: url(skin:branch-open.png);
+}
+
 QLineEdit:enabled { 
     color: #1981ac;
 }
@@ -452,12 +462,12 @@ QToolBar::horizontal {
     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #fff, stop: 1 #ededed);
     border-bottom:1px solid qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #c3c3c3, stop: 1 #c3c3c3);
     margin: 0px;
-    padding: 12px!important;
+    padding: 10px!important;
 }
 QToolBar::handle:horizontal {
     image: url(skin:handle_horizontal.svg);
-    width: 10px;
-    padding-top: 10px;
+    width: 15px;
+    padding-top: 6px;
 }
 QToolBar::handle:vertical {
     image: url(skin:handle_vertical.svg);
