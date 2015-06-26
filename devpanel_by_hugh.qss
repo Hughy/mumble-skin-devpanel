@@ -112,6 +112,9 @@ QCalendarWidget *,
 Selection des serveurs mumble
 -----------
 */
+QDialog#ConnectDialog {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #dadada, stop: 1 #fff);
+}
 QTreeView {
     background-color: #eee;
     alternate-background-color: #e7e7e7;
@@ -186,6 +189,7 @@ QTreeView#qtvUsers {
     background-image: url(skin:devfond.png);
     background-position: right top;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: #fff;
     show-decoration-selected: 0;
     color: #000;
@@ -304,9 +308,9 @@ Input chat
     background-color: #151515;
 }
 #qdwChat QTextEdit::disabled {
-    background-color: #cb2f2f;
+    background-color: #aeaeae;
     text-decoration: line-through;
-    border:1px solid #860e0e;
+    border:1px solid #949494;
     border-bottom:0;
 }
 
