@@ -11,6 +11,7 @@
 * Unzip to **C:\MumbleSkin**
 * Open mumble -> Configure -> Settings -> User Interface
 * Update the path : **C:\MumbleSkin**\mumble-skin-devpanel-master\devpanel_by_hugh.qss
+* Select style : WindowsVista
 * Reboot mumble
 
 ## Contributing
