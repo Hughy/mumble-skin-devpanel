@@ -9,6 +9,7 @@ DEVPANEL - SKIN DEVPANEL DARK
 */
 
 
+
 * {
     font-family: "Segoe UI";
     font-size: 14px;
@@ -20,6 +21,7 @@ DEVPANEL - SKIN DEVPANEL DARK
 Liste des utilisateurs et des salons
 -----------
 */
+
 QMainWindow#MainWindow {
     background-image: url(skin:noise.png);
     background-position: left top;
@@ -32,6 +34,7 @@ QMainWindow#MainWindow {
 Menu principal
 -----------
 */
+
 QMenuBar {
     background-image: url(skin:insignedevpanel.png);
     background-position: right top;
@@ -70,7 +73,9 @@ QMenu::indicator {
 Menu contextuel
 -----------
 */
+
 QMenu {
+qproperty-setTearOffEnabled: true;
     background: #1981ac;
     border: 0;
     color: #fff;
@@ -112,6 +117,7 @@ QCalendarWidget *,
 Selection des serveurs mumble
 -----------
 */
+
 QDialog#ConnectDialog {
     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #dadada, stop: 1 #fff);
 }
@@ -190,7 +196,7 @@ QTreeView#qtvUsers {
     background-position: right top;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #fff;
+    background-color: transparent;
     show-decoration-selected: 0;
     color: #000;
     margin:15px;
@@ -261,6 +267,7 @@ QToolTip {
 Bouttons
 -----------
 */
+
 QPushButton {
     background:none;
     padding: 8px 12px;
@@ -303,6 +310,7 @@ QTextEdit {
 Input chat
 -----------
 */
+
 #qdwChat QTextEdit {
     margin-left:15px;
     margin-right:15px;
@@ -323,12 +331,27 @@ Input chat
     border:1px solid #949494;
     border-bottom:0;
 }
+/*
+-----------
+qproperty
+-----------
+*/
+
+
+#MainWindow {
+  qproperty-windowTitle: "Mumble : devpanel.fr";
+}
+QTreeView#qtvUsers {
+  qproperty-animated: true;
+  qproperty-indentation: 20;
+}
 
 /*
 -----------
 Zone de logs
 -----------
 */
+
 QTextBrowser {
     margin:15px;
     border-top-left-radius: 3px;
@@ -381,6 +404,7 @@ a {
 Separation
 -----------
 */
+
 QMainWindow::separator:hover {
     background: #fff;
     width: 2px; 
@@ -392,6 +416,7 @@ QMainWindow::separator:hover {
 Scroolbar
 -----------
 */
+
 QScrollBar:vertical {
     background: transparent;
     width: 12px;
@@ -439,6 +464,7 @@ QAbstractScrollArea::corner {
 Toolbar vertical & horizontal
 -----------
 */
+
 QToolBar {
     margin-top: 15px;
     margin-left: 15px;
