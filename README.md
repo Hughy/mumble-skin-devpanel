@@ -2,7 +2,7 @@
 
 **mumble-skin-devpanel** is a skin for the voice-chat software **[mumble](http://wiki.mumble.info/wiki/Main_Page)**.
 
-# Preview #
+## Preview
 ![Preview](https://raw.githubusercontent.com/Hughy/mumble-skin-devpanel/master/preview/prev1.jpg)
 
 ## Install
@@ -21,3 +21,6 @@
 3. Commit your changes : `git commit -m 'Add some feature'`
 4. Push to the branch : `git push origin my-new-feature`
 5. Submit a pull request.
+
+## Licence
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
